@@ -1,6 +1,6 @@
-#State: message addressed to user that tells them When they will turn 100 years old 
-#Input: User's age & name 
-#Rule: User's input must qualify 
+#State: A message stating the year when the user will turn 100 years old.
+#Input: The program receives a user’s name and age.
+#Rule: Age must be a valid integer between 0 and 120 (inclusive). Name must not be empty or consist only of spaces. If any condition is not met, the input is considered invalid.
 #Stop: Program stops when message comes out 
 
 def main() :
